@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -9,6 +9,23 @@
   ],
   "engines": {
     "node": ">=10"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "custom-hooks",
+    "useToggle"
+  ],
+  "homepage": "https://github.com/parthpatel21/react-ready-hooks",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/parthpatel21/react-ready-hooks/blob/main/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parthpatel21/react-ready-hooks"
   },
   "scripts": {
     "start": "tsdx watch",
