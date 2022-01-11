@@ -14,7 +14,8 @@
     "react",
     "hook",
     "custom-hooks",
-    "useToggle"
+    "useToggle",
+    "useTimeout"
   ],
   "homepage": "https://github.com/parthpatel21/react-ready-hooks",
   "licenses": [
