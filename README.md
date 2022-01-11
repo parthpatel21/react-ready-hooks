@@ -12,6 +12,7 @@ yarn add react-ready-hooks
 ## Hooks
 
 - [`useToggle`](https://github.com/parthpatel21/react-ready-hooks) Hook for handling boolean state.
+- [`useTimeout`](https://github.com/parthpatel21/react-ready-hooks) Hook for executing function after some delay
 
 ### useToggle
 
@@ -26,3 +27,16 @@ Methods:
 Properties:
 
 - `value` - the current state
+
+### useTimeout
+
+```jsx
+const { clear, reset } = useTimeout(() => {}, 1000);
+```
+
+This hook accept two parameter -> function to be execute and delay in milli second.
+
+Methods:
+
+- `clear()` - allow you to clear timeout.
+- `reset()` - allow you to reset timeout.
