@@ -11,10 +11,10 @@ yarn add react-ready-hooks
 
 ## Hooks
 
-- [`useToggle`](https://github.com/parthpatel21/react-ready-hooks) Hook for handling boolean state.
-- [`useTimeout`](https://github.com/parthpatel21/react-ready-hooks) Hook for executing function after some delay
+- [`useToggle`](README.md#useToggle) Hook for handling boolean state.
+- [`useTimeout`](README.md#useTimeout) Hook for executing function after some delay
 
-### useToggle
+### `useToggle`(#props-index)
 
 ```jsx
 const [value, toggleValue] = useToggle(false);
@@ -28,7 +28,7 @@ Properties:
 
 - `value` - the current state
 
-### useTimeout
+### `useTimeout`(#props-index)
 
 ```jsx
 const { clear, reset } = useTimeout(() => {}, 1000);
