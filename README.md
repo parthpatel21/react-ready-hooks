@@ -13,6 +13,7 @@ yarn add react-ready-hooks
 
 - [`useToggle`](https://github.com/parthpatel21/react-ready-hooks) Hook for handling boolean state.
 - [`useTimeout`](https://github.com/parthpatel21/react-ready-hooks) Hook for executing function after some delay
+- [`useUpdateEffect`](https://github.com/parthpatel21/react-ready-hooks) Hook for executing function only when their dependencies gets change
 
 ### useToggle
 
@@ -40,3 +41,12 @@ Methods:
 
 - `clear()` - allow you to clear timeout.
 - `reset()` - allow you to reset timeout.
+
+### useUpdateEffect
+
+```jsx
+const [count, setCount] = useState(100);
+useUpdateEffect(() => alert(count), [count]);
+```
+
+This hook accept two parameter -> function to be execute and dependencies array.
